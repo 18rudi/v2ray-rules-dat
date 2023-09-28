@@ -10,5 +10,10 @@ gvt1.com
 
 #IG
 cdninstagram.com
+ig.me
 instagram.com
 instagram.c10r.facebook.com
+
+backup.googleapis.com
+domain:facebook
+domain:fbcdn

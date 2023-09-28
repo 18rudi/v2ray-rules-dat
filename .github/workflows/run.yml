@@ -58,7 +58,7 @@ jobs:
           echo "RULE_SPEEDTEST=https://raw.githubusercontent.com/malikshi/v2ray-rules-dat/rule/rule_speedtest.txt" >> $GITHUB_ENV
           echo "MALICIOUS_HOST=https://raw.githubusercontent.com/elliotwutingfeng/Inversion-DNSBL-Blocklists/main/Google_hostnames_light.txt" >> $GITHUB_ENV
           echo "RULE_BANK_ID=https://raw.githubusercontent.com/malikshi/v2ray-rules-dat/rule/rule_bank-id.txt" >> $GITHUB_ENV
-          echo "RULE_COMBOLITE=https://raw.githubusercontent.com/malikshi/v2ray-rules-dat/rule/rule_combolite.txt" >> $GITHUB_ENV
+          echo "RULE_COMBOLITE=https://raw.githubusercontent.com/18rudi/v2ray-rules-dat/rule/rule_combolite.txt" >> $GITHUB_ENV
         shell: bash
 
       - name: Checkout the "hidden" branch of this repo

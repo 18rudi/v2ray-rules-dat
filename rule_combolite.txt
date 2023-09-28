@@ -1,0 +1,14 @@
+include:youtube
+
+#playstore
+full:play-fe.googleapis.com
+full:play-lh.googleusercontent.com
+full:play.google.com
+full:play.googleapis.com
+
+gvt1.com
+
+#IG
+cdninstagram.com
+instagram.com
+instagram.c10r.facebook.com

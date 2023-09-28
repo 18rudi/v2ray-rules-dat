@@ -227,8 +227,8 @@ jobs:
           wget -O rule-malicious.txt $MALICIOUS_HOST
           wget -O ./community/data/bank-id $RULE_BANK_ID
           wget -O bank-id.txt $RULE_BANK_ID
-          wget -O ./community/data/combolite $RULE_COMBOLITE
-          wget -O combolite.txt $RULE_COMBOLITE
+          wget -O ./community/data/rule-combolite $RULE_COMBOLITE
+          wget -O rule-combolite.txt $RULE_COMBOLITE
 
       - name: Filter and save d3ward.txt
         run: |

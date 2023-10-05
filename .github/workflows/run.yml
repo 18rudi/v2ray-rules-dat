@@ -201,32 +201,32 @@ jobs:
           curl -sSL $RULE_ADS_EXTENDED >> rule-ads.txt
           curl -sSL $OISD_NSFW | perl -ne '/^server=\/([^\/]+)\// && print "$1\n"' > ./community/data/oisd-nsfw
           curl -sSL $OISD_NSFW | perl -ne '/^server=\/([^\/]+)\// && print "$1\n"' > oisd-nsfw.txt
-          wget -O ./community/data/rule-doh $DOH_DNS
-          wget -O rule-doh.txt $DOH_DNS
-          wget -O ./community/data/rule-gaming $RULE_GAME
-          wget -O rule-gaming.txt $RULE_GAME
-          wget -O ./community/data/rule-indo $RULE_INDO
-          wget -O rule-indo.txt $RULE_INDO
-          wget -O ./community/data/rule-playstore $RULE_PS
-          wget -O rule-playstore.txt $RULE_PS
-          wget -O ./community/data/rule-sosmed $RULE_SOSMED
-          wget -O rule-sosmed.txt $RULE_SOSMED
-          wget -O ./community/data/rule-streaming $RULE_STREAMING
-          wget -O rule-streaming.txt $RULE_STREAMING
-          wget -O ./community/data/rule-umum $RULE_UMUM
-          wget -O rule-umum.txt $RULE_UMUM
-          wget -O ./community/data/rule-ipcheck $RULE_IPCHECK
-          wget -O rule-ipcheck.txt $RULE_IPCHECK
-          wget -O ./community/data/videoconference $RULE_VIDCONFERENCE
-          wget -O videoconference.txt $RULE_VIDCONFERENCE
-          wget -O ./community/data/urltest $URLTEST
-          wget -O urltest.txt $URLTEST
-          wget -O ./community/data/rule-speedtest $RULE_SPEEDTEST
-          wget -O rule-speedtest.txt $RULE_SPEEDTEST
-          wget -O ./community/data/rule-malicious $MALICIOUS_HOST
-          wget -O rule-malicious.txt $MALICIOUS_HOST
-          wget -O ./community/data/bank-id $RULE_BANK_ID
-          wget -O bank-id.txt $RULE_BANK_ID
+        #  wget -O ./community/data/rule-doh $DOH_DNS
+        #  wget -O rule-doh.txt $DOH_DNS
+        #  wget -O ./community/data/rule-gaming $RULE_GAME
+        #  wget -O rule-gaming.txt $RULE_GAME
+        #  wget -O ./community/data/rule-indo $RULE_INDO
+        #  wget -O rule-indo.txt $RULE_INDO
+        #  wget -O ./community/data/rule-playstore $RULE_PS
+        #  wget -O rule-playstore.txt $RULE_PS
+        #  wget -O ./community/data/rule-sosmed $RULE_SOSMED
+        #  wget -O rule-sosmed.txt $RULE_SOSMED
+        #  wget -O ./community/data/rule-streaming $RULE_STREAMING
+        #  wget -O rule-streaming.txt $RULE_STREAMING
+        #  wget -O ./community/data/rule-umum $RULE_UMUM
+        #  wget -O rule-umum.txt $RULE_UMUM
+        #  wget -O ./community/data/rule-ipcheck $RULE_IPCHECK
+        #  wget -O rule-ipcheck.txt $RULE_IPCHECK
+        #  wget -O ./community/data/videoconference $RULE_VIDCONFERENCE
+        #  wget -O videoconference.txt $RULE_VIDCONFERENCE
+        #  wget -O ./community/data/urltest $URLTEST
+        #  wget -O urltest.txt $URLTEST
+       #   wget -O ./community/data/rule-speedtest $RULE_SPEEDTEST
+       #   wget -O rule-speedtest.txt $RULE_SPEEDTEST
+       #   wget -O ./community/data/rule-malicious $MALICIOUS_HOST
+        #  wget -O rule-malicious.txt $MALICIOUS_HOST
+        #  wget -O ./community/data/bank-id $RULE_BANK_ID
+        #  wget -O bank-id.txt $RULE_BANK_ID
           wget -O ./community/data/rule-combolite $RULE_COMBOLITE
           wget -O rule-combolite.txt $RULE_COMBOLITE
 
